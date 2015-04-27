@@ -71,8 +71,7 @@ public class MainActivity extends ListActivity {
 		String hora = String.valueOf(rightnow.get(Calendar.HOUR_OF_DAY)) + ":" + String.valueOf(rightnow.get(Calendar.MINUTE)) + ":" + String.valueOf(rightnow.get(Calendar.SECOND));
 		
 		
-		
-		
+				
 		if (savedInstanceState == null){
 			data = new ArrayList<PostData>();
 	
